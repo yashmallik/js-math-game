@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Math game</title>
+</head>
+<body >
+    <div id="prob" class ="die">
+        <p id ="ques"></p>
+        
+        <form class ="myform" action="submit">
+            <input type="text" class="input2 " placeholder="Enter your answer">
+            <button>Submit</button>
+        </form>
+        <p >Your Score is <span class ="score">0</span> and you have <span class ="attempts">3</span> attempts left</p>
+        <div class ="progress">
+            <div class="main-part">
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+                <div class="parts"></div>
+            </div>
+            <div class="progress-bar">
+
+            </div>
+
+        </div>
+        
+    </div>
+    <div class ="afterMatch">
+        <p class = "sayResult"></p>
+        <button class ="rematchBtn" onclick="reset()">Rematch</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
